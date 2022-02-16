@@ -1,0 +1,25 @@
+.single-product{
+    display: flex;
+    border-bottom:1px solid #ddd;
+    margin-left: 10%;
+}
+@media (max-width: 700px) {
+    .single-product{
+        margin-left: 0;
+    }
+    .product-name{
+        padding: 0 ;
+    }
+}
+.product-name{
+    padding: 0 10%;
+}
+.product-name h4{
+    color: blue;
+}
+.cart-add-btn{
+    background: goldenrod;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
